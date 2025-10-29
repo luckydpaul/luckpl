@@ -1,2 +1,4 @@
 git push -u gitee main
 git push -u github main
+
+git tag -a v1.0.0 -m "feat: 第一次正式发版"
