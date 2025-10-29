@@ -1,8 +1,12 @@
+
+
+//step
+
+git add .
+git commit -m "some info"
 git push -u gitee main
 git push -u github main
 
-git tag -a v0.0.1 -m "0.0.1"
-git push origin v0.0.1
-
-git tag -f v0.0.1 //重打
-git push origin -f v0.0.1
+git tag -a v0.0.1 -m "v0.0.1"
+git push gitee v0.0.1
+git push github v0.0.1
