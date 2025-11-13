@@ -6,5 +6,5 @@ NOW := $(shell date '+%Y-%m-%d %H:%M')
 git:
 	@git add .
 	@git commit -m "$(NOW)"
-	@git push -u github master
-	@git push -u gitee master
+	@git push -u github main
+	@git push -u gitee main
